@@ -13,6 +13,6 @@ tags = "@BancoTeste",
 //tags = {"@tipo1, @tipo2"}, execute onde tem uma ou outra tag
 //tags = "~@ignore",
 glue = "cucumber.teste.passos", monochrome = true, dryRun = false)
-public class BancoTeste {
+public class BancoRunner {
 
 }

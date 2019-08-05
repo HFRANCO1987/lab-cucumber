@@ -20,13 +20,5 @@ Funcionalidade: Testar as operacoes basicas de banco
     Dado o calculo do total de dinheiro
     Entao o total de dinheiro no banco e 500
   
-  @tipo2 
-  Cenario: Verifica se idade e igual a 30
-    Entao o valor informado para idade deve ser igual 30
-    
-  @ignore
-  Cenario: Deve incrementar contador
-  	Dado que o contador e 15
-  	Quando eu eu incrementar em 3
-  	Entao o valor do contador sera 18
+
     

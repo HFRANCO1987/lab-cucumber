@@ -9,6 +9,6 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = "pretty", features = "classpath:caracteristicas", tags = "@ContaTeste", 
 glue = "cucumber.teste.passos", monochrome = true, dryRun = false, snippets = SnippetType.CAMELCASE)
-public class ContaTeste {
+public class ContaRunner {
 
 }

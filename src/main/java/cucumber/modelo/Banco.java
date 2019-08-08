@@ -6,10 +6,12 @@ public class Banco {
 
 	  private String nome;
       private List<Conta> listaDeContas;
+      
       public Banco(String nome, List<Conta> listaDeContas) {
              this.nome = nome;
              this.listaDeContas= listaDeContas;
       }
+      
       public String getNome() {
             return nome;
       }

@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = "pretty", features = "classpath:caracteristicas", 
+@CucumberOptions(features = "classpath:caracteristicas", 
 tags = "@BancoTeste",
 //tags = "@tipo1",
 //tags = {"@tipo1", "@tipo2"}, executa onde tem as 2 tags
